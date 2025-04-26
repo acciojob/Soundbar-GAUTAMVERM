@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body {
+  background: url('ADS.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn, .stop {
+  background-color: rgba(93, 62, 168, 0.9); /* semi-transparent purple */
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover, .stop:hover {
+  background-color: rgba(76, 50, 144, 0.9);
+}
